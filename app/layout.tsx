@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Casa Café | Tu nueva pausa favorita",
-  description: "Café de especialidad, momentos simples y un espacio para disfrutar sin prisa.",
+  title: "Panel de productos | API backendUpb",
+  description: "Prueba el catálogo de productos y los endpoints del backend en Render.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

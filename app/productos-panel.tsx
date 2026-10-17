@@ -121,7 +121,7 @@ export default function ProductosPanel() {
     <section className="products-section" id="productos" aria-labelledby="products-title">
       <div className="container">
         <div className="section-heading">
-          <span className="section-kicker">03 / CONEXIÓN EN VIVO</span>
+          <span className="section-kicker">API BACKENDUPB / CONEXIÓN EN VIVO</span>
           <h2 id="products-title">Productos en tiempo real.</h2>
           <p>Prueba los endpoints de Render y los datos guardados en PostgreSQL.</p>
           <p className="api-status" role="status">{status}</p>
