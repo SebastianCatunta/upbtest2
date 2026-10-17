@@ -26,6 +26,7 @@ export default function Home() {
         <nav aria-label="Navegación principal" className="nav-links">
           <a href="#nosotros">Nosotros</a>
           <a href="#experiencia">Experiencia</a>
+          <a href="#productos">Productos</a>
           <a className="nav-contact" href="#contacto">Contacto <span aria-hidden="true">↗</span></a>
         </nav>
       </header>
@@ -84,6 +85,8 @@ export default function Home() {
           </div>
         </section>
 
+        <ProductosPanel />
+
         <section className="contact-section" id="contacto" aria-labelledby="contact-title">
           <div className="container contact-inner">
             <div>
@@ -104,3 +107,4 @@ export default function Home() {
     </div>
   );
 }
+import ProductosPanel from "./productos-panel";
